@@ -7,8 +7,9 @@
 
 /* nav styles */
 
+
 .hero{
-  background-image: url(/image/Assets/Hero-bg.png);
+  background-image: url(../Assets/Hero-bg.png);
 }
 
 
@@ -42,7 +43,7 @@ nav{
 }
 
 .banner-content h3{
-     font-size: 65px;
+     font-size: 60px;
      font-weight: bold;
 }
 
@@ -55,4 +56,38 @@ nav{
   padding: 12px 36px 12px 36px;
   margin-left: 200px;
 }
+
+
+/* Main style section-1 */
+
+section{
+  margin: 116px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-sec{
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #4E47FF;
+  border-radius: 5px;
+  padding: 12px 36px 12px 36px;
+}
+
+.main-h3{
+  font-size: 42px;
+  font-weight: bold;
+  color: #252432;
+}
+
+.main-h2{
+  font-size: 24px;
+  color: #666;
+}
+.img-1{
+  border-radius: 48px;
+}
+
 
