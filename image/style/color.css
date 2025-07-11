@@ -39,7 +39,7 @@ nav{
 /* banner  style */
 .banner{
   align-items: center;
-  margin: 235px 267px;
+  margin: 158px 267px;
 }
 
 .banner-content h3{
@@ -61,6 +61,7 @@ nav{
 /* Main style section-1 */
 main{
   max-width: 1140px;
+  margin: 0 auto;
 }
 
 .Action{
@@ -87,7 +88,7 @@ main{
 
 .main-h2{
   font-size: 24px;
-  color: #757575;
+  color: #8987A1;
 }
 .img-1{
   border-radius: 48px;
@@ -152,10 +153,10 @@ input[type="text"], input[type="email"]{
   border-radius: 10px;
   background-color: white;
   display: block;
-  width: 100%;
   padding: 10px 20px;
   border-radius: 10px;
   font-size: 20px;
+  width: 50%;
 }
 
 textarea{
@@ -179,3 +180,53 @@ textarea{
   color: white;
 }
 
+/* section 4 */
+.design{
+  text-align: center;
+  margin-top: 137px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.sec-title{
+  font-size: 42px;
+  font-weight: bold;
+}
+
+
+.design-container{
+  display: flex;
+}
+
+.design-skill{
+  margin: ;
+  padding: 70px 30px;
+  box-shadow: 0px 4px 4px 0px #000000;
+  gap: 20px;
+}
+
+
+/* footer  */
+
+.logo{
+  padding: 104px 455px;
+  text-align: center;
+}
+
+.logo-detail{
+  display: flex;
+  justify-content: space-around;
+  color: #8987A1;
+}
+
+.logo-title{
+  font-size: 100px;
+  font-weight: bold;
+  color: rgba(78, 71, 255, 1);
+}
+.logo-description{
+  color: #8987A1;
+}
+
+.d-para{
+  font-size: 16px;
+}
